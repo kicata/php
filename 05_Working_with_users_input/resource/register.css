@@ -1,0 +1,35 @@
+	#register{
+	  		width:500px;
+	  		background:#83C487;
+	  		border:1px solid black;
+	  		border-radius:5px;
+	  		padding:10px 35px;
+	  		text-align: right;
+	  	}
+	  	#sex{
+	  		margin:20px 35px;
+	  	}
+	  	.star{
+	  		color:red;
+	  	}
+	  	.error{
+	  		color:#FF0000;
+	 		display:block;
+	 		font-size:10px;
+	  	}
+	  	.sex{
+	  		margin-right:100px;
+	  	}
+	  	
+	  	input[type="text"]{
+	  		border:1px solid black;
+	  		border-radius:5px;
+	  		color:#575E58;
+	  		padding:5px 10px;
+	  		margin-top:10px;
+	  		margin-left:30px;
+	  	}
+	  	input[type="number"]{
+	  		width:50px;
+	  	}
+	  	

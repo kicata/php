@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+	<head>
+	  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	  <title>01_register.html</title>
+	  <link rel="stylesheet" href="resource/register.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+	</head>
+	<body>
+	 <div id="register">
+			<form action="01_register.php" method="post" accept-charset="utf-8">
+				<label for="username">Username<span class="star">*</span>: </label>
+				<input type="text" name="username" value="" id="username"/>
+				<br/>
+				<label for="password">Password<span class="star">*</span>: </label>
+				<input type="text" name="password" value="" id="password"/>
+				<br/>
+				<label for="rpass">Repeat password<span class="star">*</span>: </label>
+				<input type="text" name="passRepeat" value="" id="passRepeat"/>
+				<br/>
+				<label for="question">Secred question<span class="star">*</span>: </label>
+				<input type="text" name="question" value="" id="question"/>
+				<br/>
+				<label for="answer">Secred answer<span class="star">*</span>: </label>
+				<input type="text" name="answer" value="" id="answer"/>
+				<br/>
+				<label for="email">Email<span class="star">*</span>: </label>
+				<input type="text" name="email" value="" id="email"/>
+				<br/>
+				<label for="fname">First name<span class="star">*</span>: </label>
+				<input type="text" name="fname" value="" id="fname"/>
+				<br/>
+				<label for="lname">Last name<span class="star">*</span>: </label>
+				<input type="text" name="lname" value="" id="lname"/>
+				<br/>
+				<div id="sex">
+					<span class="sex">Gender:</span>
+					<label for="male">male</label>
+					<input type="radio" name="gender"value="male" id="male"/>
+					<label for="female">female</label>
+					<input type="radio" name="gender" value="female" id="female" />
+					<br/>
+				</div>
+				<label for="bithday">Birthday: <span class="star">*</span></label>
+				<input type="number" name="day" value="" min="1" max="31" id="day"/>
+				<input type="number" name="month" value="" min="1" max="12" id="month"/>
+				<input type="number" name="year" value="" id ="year"/>
+				<p>
+					<input type="submit" value="Create profile" id="submit"/>
+				</p>
+			</form>
+		</div>
+	</body>
+</html>
